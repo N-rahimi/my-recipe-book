@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe - Gusto</title>
+</head>
+<body>
+    <header>
+      <nav>
+        
+         <a href="index.html">Home  |</a></li> 
+         <a href="add-recipe.html">Add Recipe  |</a></li>
+         <a href="recipe-list.html">Recipe List</a></li>
+        
+      </nav>
+    </header>
+    <main>
+        <h1>Add a New Recipe</h1>
+        <form>
+            <label for="recipe-name">Recipe Name:<br>
+            <input type="text" id="recipe-name" required /></label><br/><br/>
+ 
+            <label for="ingredients"> Ingredients: <br>
+            <textarea id="ingredients" rows="5" required></textarea></label>
+            <br/><br/>
+
+            <label for="instructions">Cooking Instructions: <br/>
+            <textarea  id="instructions" rows="8"></textarea>
+            </label><br/><br/>
+
+            <label for="Image">Image URL: <br/>
+            <input type="text" id="Image"/>
+            </label><br/><br/>
+
+            <label for="category">category:<br/>
+            <select id="category" required>
+                <option>select</option>
+                <option>Quick Meals</option>
+                <option>Healthy</option>
+                <option>Desserts</option>
+                <option>Dirnks</option>
+                <option>Asian Cuisine</option>
+            </select>
+            </label><br/><br/>
+
+            <button type="submit">Add Recipe</button>
+        </form>
+    </main>
+</body>
+</html>
